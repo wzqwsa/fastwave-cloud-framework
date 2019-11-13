@@ -1,0 +1,809 @@
+2019-11-08 22:20:37 -The following profiles are active: dev
+2019-11-08 22:20:37 -Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@71e9a896: startup date [Fri Nov 08 22:20:37 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@2053d869
+2019-11-08 22:20:38 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-11-08 22:20:38 -BeanFactory id=2f12963b-7aec-3abe-a59a-3382a8b9bc9a
+2019-11-08 22:20:38 -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-11-08 22:20:38 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1b0cd707] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-08 22:20:38 -Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$3726da04] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-08 22:20:39 -Tomcat initialized with port(s): 8764 (http)
+2019-11-08 22:20:39 -Starting service [Tomcat]
+2019-11-08 22:20:39 -Starting Servlet Engine: Apache Tomcat/8.5.27
+2019-11-08 22:20:39 -Initializing Spring embedded WebApplicationContext
+2019-11-08 22:20:39 -Root WebApplicationContext: initialization completed in 1259 ms
+2019-11-08 22:20:39 -Mapping servlet: 'statViewServlet' to [/druid/*]
+2019-11-08 22:20:39 -Mapping servlet: 'statViewServlet' to [/druid/*]
+2019-11-08 22:20:39 -Servlet statViewServlet was not registered (possibly already registered?)
+2019-11-08 22:20:39 -Mapping servlet: 'dispatcherServlet' to [/]
+2019-11-08 22:20:39 -Mapping filter: 'metricsFilter' to: [/*]
+2019-11-08 22:20:39 -Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-11-08 22:20:39 -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-11-08 22:20:39 -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-11-08 22:20:39 -Mapping filter: 'requestContextFilter' to: [/*]
+2019-11-08 22:20:39 -Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2019-11-08 22:20:39 -Mapping filter: 'webStatFilter' to urls: [/*]
+2019-11-08 22:20:39 -Mapping filter: 'applicationContextIdFilter' to: [/*]
+2019-11-08 22:20:40 -{dataSource-1} inited
+2019-11-08 22:20:40 -Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@71e9a896: startup date [Fri Nov 08 22:20:37 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@2053d869
+2019-11-08 22:20:41 -Mapped "{[/config/dict/remove],methods=[POST],produces=[application/json;charset=UTF-8]}" onto public fastwave.lib.common.web.R fastwave.service.admin.config.controller.DictController.remove(java.util.Map<java.lang.String, java.lang.Object>)
+2019-11-08 22:20:41 -Mapped "{[/config/dict/update],methods=[POST],produces=[application/json;charset=UTF-8]}" onto public fastwave.lib.common.web.R fastwave.service.admin.config.controller.DictController.update(fastwave.service.admin.config.entity.Dict)
+2019-11-08 22:20:41 -Mapped "{[/config/dict/list],methods=[POST],produces=[application/json;charset=UTF-8]}" onto public java.util.Map<java.lang.String, java.lang.Object> fastwave.service.admin.config.controller.DictController.list(java.util.Map<java.lang.String, java.lang.Object>)
+2019-11-08 22:20:41 -Mapped "{[/config/dict/save],methods=[POST],produces=[application/json;charset=UTF-8]}" onto public fastwave.lib.common.web.R fastwave.service.admin.config.controller.DictController.save(fastwave.service.admin.config.entity.Dict)
+2019-11-08 22:20:41 -Mapped "{[/config/dict/listType],methods=[POST],produces=[application/json;charset=UTF-8]}" onto public java.util.Map<java.lang.String, java.lang.Object> fastwave.service.admin.config.controller.DictController.listType()
+2019-11-08 22:20:41 -Mapped "{[/config/dict/view],methods=[POST],produces=[application/json;charset=UTF-8]}" onto public java.util.Map<java.lang.String, java.lang.Object> fastwave.service.admin.config.controller.DictController.view(java.util.Map<java.lang.String, java.lang.Object>)
+2019-11-08 22:20:41 -Mapped "{[/config/dict/treelist],methods=[POST],produces=[application/json;charset=UTF-8]}" onto public java.util.Map<java.lang.String, java.lang.Object> fastwave.service.admin.config.controller.DictController.treelist(java.util.Map<java.lang.String, java.lang.Object>)
+2019-11-08 22:20:41 -Mapped "{[/config/dict/ListDictParents],methods=[POST],produces=[application/json;charset=UTF-8]}" onto public java.util.Map<java.lang.String, java.lang.Object> fastwave.service.admin.config.controller.DictController.ListDictParents(java.util.Map<java.lang.String, java.lang.Object>)
+2019-11-08 22:20:41 -Mapped "{[/config/dict/ListDictItems_notCheck],methods=[POST],produces=[application/json;charset=UTF-8]}" onto public java.util.Map<java.lang.String, java.lang.Object> fastwave.service.admin.config.controller.DictController.ListDictItems(java.util.Map<java.lang.String, java.lang.Object>)
+2019-11-08 22:20:41 -Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-11-08 22:20:41 -Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-11-08 22:20:41 -Mapped URL path [/files/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-11-08 22:20:41 -Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-11-08 22:20:41 -Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-11-08 22:20:41 -Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-11-08 22:20:41 -Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-11-08 22:20:41 -Mapped "{[/loggers/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.get(java.lang.String)
+2019-11-08 22:20:41 -Mapped "{[/loggers/{name:.*}],methods=[POST],consumes=[application/vnd.spring-boot.actuator.v1+json || application/json],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.set(java.lang.String,java.util.Map<java.lang.String, java.lang.String>)
+2019-11-08 22:20:41 -Mapped "{[/loggers || /loggers.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-11-08 22:20:41 -Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+2019-11-08 22:20:41 -Mapped "{[/env || /env.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-11-08 22:20:41 -Mapped "{[/info || /info.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-11-08 22:20:41 -Mapped "{[/refresh || /refresh.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2019-11-08 22:20:41 -Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+2019-11-08 22:20:41 -Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+2019-11-08 22:20:41 -Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-11-08 22:20:41 -Mapped "{[/env],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.value(java.util.Map<java.lang.String, java.lang.String>)
+2019-11-08 22:20:41 -Mapped "{[/env/reset],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.reset()
+2019-11-08 22:20:41 -Mapped "{[/resume || /resume.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2019-11-08 22:20:41 -Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-11-08 22:20:41 -Mapped "{[/health || /health.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,java.security.Principal)
+2019-11-08 22:20:41 -Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-11-08 22:20:41 -Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-11-08 22:20:41 -Mapped "{[/auditevents || /auditevents.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.boot.actuate.endpoint.mvc.AuditEventsMvcEndpoint.findByPrincipalAndAfterAndType(java.lang.String,java.util.Date,java.lang.String)
+2019-11-08 22:20:41 -Mapped "{[/restart || /restart.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.restart.RestartMvcEndpoint.invoke()
+2019-11-08 22:20:41 -Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-11-08 22:20:41 -Mapped "{[/features || /features.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-11-08 22:20:41 -Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-11-08 22:20:41 -Mapped "{[/pause || /pause.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2019-11-08 22:20:41 -Mapped "{[/archaius || /archaius.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-11-08 22:20:42 -No URLs will be polled as dynamic configuration sources.
+2019-11-08 22:20:42 -To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-11-08 22:20:42 -No URLs will be polled as dynamic configuration sources.
+2019-11-08 22:20:42 -To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-11-08 22:20:42 -Registering beans for JMX exposure on startup
+2019-11-08 22:20:42 -Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-11-08 22:20:42 -Bean with name 'refreshScope' has been autodetected for JMX exposure
+2019-11-08 22:20:42 -Bean with name 'environmentManager' has been autodetected for JMX exposure
+2019-11-08 22:20:42 -Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2019-11-08 22:20:42 -Bean with name 'refreshEndpoint' has been autodetected for JMX exposure
+2019-11-08 22:20:42 -Bean with name 'restartEndpoint' has been autodetected for JMX exposure
+2019-11-08 22:20:42 -Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2019-11-08 22:20:42 -Located managed bean 'restartEndpoint': registering with JMX server as MBean [org.springframework.cloud.context.restart:name=restartEndpoint,type=RestartEndpoint]
+2019-11-08 22:20:42 -Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2019-11-08 22:20:42 -Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=71e9a896,type=ConfigurationPropertiesRebinder]
+2019-11-08 22:20:42 -Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2019-11-08 22:20:42 -Located managed bean 'refreshEndpoint': registering with JMX server as MBean [org.springframework.cloud.endpoint:name=refreshEndpoint,type=RefreshEndpoint]
+2019-11-08 22:20:42 -Registering beans for JMX exposure on startup
+2019-11-08 22:20:42 -Starting beans in phase 0
+2019-11-08 22:20:42 -Setting initial instance status as: STARTING
+2019-11-08 22:20:42 -Using JSON encoding codec LegacyJacksonJson
+2019-11-08 22:20:42 -Using JSON decoding codec LegacyJacksonJson
+2019-11-08 22:20:42 -Using XML encoding codec XStreamXml
+2019-11-08 22:20:42 -Using XML decoding codec XStreamXml
+2019-11-08 22:20:42 -Resolving eureka endpoints via configuration
+2019-11-08 22:20:43 -Disable delta property : false
+2019-11-08 22:20:43 -Single vip registry refresh property : null
+2019-11-08 22:20:43 -Force full registry fetch : false
+2019-11-08 22:20:43 -Application is null : false
+2019-11-08 22:20:43 -Registered Applications size is zero : true
+2019-11-08 22:20:43 -Application version is -1: true
+2019-11-08 22:20:43 -Getting all instance registry info from the eureka server
+2019-11-08 22:20:43 -The response status is 200
+2019-11-08 22:20:43 -Starting heartbeat executor: renew interval is: 5
+2019-11-08 22:20:43 -InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-11-08 22:20:43 -Discovery Client initialized at timestamp 1573222843135 with initial instances count: 1
+2019-11-08 22:20:43 -Registering application fastwave-service-admin with eureka with status UP
+2019-11-08 22:20:43 -Saw local status change event StatusChangeEvent [timestamp=1573222843151, current=UP, previous=STARTING]
+2019-11-08 22:20:43 -Located managed bean 'auditEventsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=auditEventsEndpoint]
+2019-11-08 22:20:43 -Located managed bean 'featuresEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=featuresEndpoint]
+2019-11-08 22:20:43 -Located managed bean 'requestMappingEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=requestMappingEndpoint]
+2019-11-08 22:20:43 -Located managed bean 'environmentEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=environmentEndpoint]
+2019-11-08 22:20:43 -Located managed bean 'healthEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=healthEndpoint]
+2019-11-08 22:20:43 -Located managed bean 'beansEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=beansEndpoint]
+2019-11-08 22:20:43 -Located managed bean 'infoEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=infoEndpoint]
+2019-11-08 22:20:43 -Located managed bean 'loggersEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=loggersEndpoint]
+2019-11-08 22:20:43 -Located managed bean 'metricsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=metricsEndpoint]
+2019-11-08 22:20:43 -Located managed bean 'traceEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=traceEndpoint]
+2019-11-08 22:20:43 -Located managed bean 'dumpEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=dumpEndpoint]
+2019-11-08 22:20:43 -Located managed bean 'autoConfigurationReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=autoConfigurationReportEndpoint]
+2019-11-08 22:20:43 -Located managed bean 'configurationPropertiesReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=configurationPropertiesReportEndpoint]
+2019-11-08 22:20:43 -Located managed bean 'archaiusEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=archaiusEndpoint]
+2019-11-08 22:20:43 -Initializing ProtocolHandler ["http-nio-8764"]
+2019-11-08 22:20:43 -Starting ProtocolHandler ["http-nio-8764"]
+2019-11-08 22:20:43 -Using a shared selector for servlet write/read
+2019-11-08 22:20:43 -Tomcat started on port(s): 8764 (http)
+2019-11-08 22:20:43 -Updating port to 8764
+2019-11-08 22:20:43 -Started Application in 6.994 seconds (JVM running for 8.135)
+2019-11-08 22:20:44 -Health check failed
+org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:204)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:348)
+	at org.springframework.data.redis.core.RedisConnectionUtils.doGetConnection(RedisConnectionUtils.java:129)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:92)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:79)
+	at org.springframework.boot.actuate.health.RedisHealthIndicator.doHealthCheck(RedisHealthIndicator.java:52)
+	at org.springframework.boot.actuate.health.AbstractHealthIndicator.health(AbstractHealthIndicator.java:43)
+	at org.springframework.boot.actuate.health.CompositeHealthIndicator.health(CompositeHealthIndicator.java:68)
+	at org.springframework.cloud.netflix.eureka.EurekaHealthCheckHandler.getHealthStatus(EurekaHealthCheckHandler.java:103)
+	at org.springframework.cloud.netflix.eureka.EurekaHealthCheckHandler.getStatus(EurekaHealthCheckHandler.java:99)
+	at com.netflix.discovery.DiscoveryClient.refreshInstanceInfo(DiscoveryClient.java:1379)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:100)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:88)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at redis.clients.util.Pool.getResource(Pool.java:53)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:226)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:16)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:194)
+	... 19 common frames omitted
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Connection refused: connect
+	at redis.clients.jedis.Connection.connect(Connection.java:207)
+	at redis.clients.jedis.BinaryClient.connect(BinaryClient.java:93)
+	at redis.clients.jedis.BinaryJedis.connect(BinaryJedis.java:1767)
+	at redis.clients.jedis.JedisFactory.makeObject(JedisFactory.java:106)
+	at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:888)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:432)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:361)
+	at redis.clients.util.Pool.getResource(Pool.java:49)
+	... 22 common frames omitted
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at redis.clients.jedis.Connection.connect(Connection.java:184)
+	... 29 common frames omitted
+2019-11-08 22:20:44 -Saw local status change event StatusChangeEvent [timestamp=1573222844256, current=DOWN, previous=UP]
+2019-11-08 22:20:44 -Ignoring onDemand update due to rate limiter
+2019-11-08 22:20:44 -DiscoveryClient_FASTWAVE-SERVICE-ADMIN/fastwave-service-admin:192.168.1.104:8764: registering service...
+2019-11-08 22:20:44 -DiscoveryClient_FASTWAVE-SERVICE-ADMIN/fastwave-service-admin:192.168.1.104:8764 - registration status: 204
+2019-11-08 22:20:45 -Health check failed
+org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:204)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:348)
+	at org.springframework.data.redis.core.RedisConnectionUtils.doGetConnection(RedisConnectionUtils.java:129)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:92)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:79)
+	at org.springframework.boot.actuate.health.RedisHealthIndicator.doHealthCheck(RedisHealthIndicator.java:52)
+	at org.springframework.boot.actuate.health.AbstractHealthIndicator.health(AbstractHealthIndicator.java:43)
+	at org.springframework.boot.actuate.health.CompositeHealthIndicator.health(CompositeHealthIndicator.java:68)
+	at org.springframework.boot.actuate.endpoint.HealthEndpoint.invoke(HealthEndpoint.java:85)
+	at org.springframework.boot.actuate.endpoint.HealthEndpoint.invoke(HealthEndpoint.java:35)
+	at org.springframework.boot.actuate.endpoint.jmx.DataEndpointMBean.getData(DataEndpointMBean.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:71)
+	at sun.reflect.GeneratedMethodAccessor97.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:275)
+	at javax.management.modelmbean.RequiredModelMBean$4.run(RequiredModelMBean.java:1252)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at javax.management.modelmbean.RequiredModelMBean.invokeMethod(RequiredModelMBean.java:1246)
+	at javax.management.modelmbean.RequiredModelMBean.invoke(RequiredModelMBean.java:1085)
+	at org.springframework.jmx.export.SpringModelMBean.invoke(SpringModelMBean.java:90)
+	at javax.management.modelmbean.RequiredModelMBean.getAttribute(RequiredModelMBean.java:1562)
+	at org.springframework.jmx.export.SpringModelMBean.getAttribute(SpringModelMBean.java:109)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.getAttribute(DefaultMBeanServerInterceptor.java:647)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.getAttribute(JmxMBeanServer.java:678)
+	at javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1445)
+	at javax.management.remote.rmi.RMIConnectionImpl.access$300(RMIConnectionImpl.java:76)
+	at javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1309)
+	at javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1401)
+	at javax.management.remote.rmi.RMIConnectionImpl.getAttribute(RMIConnectionImpl.java:639)
+	at sun.reflect.GeneratedMethodAccessor96.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:324)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:683)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at redis.clients.util.Pool.getResource(Pool.java:53)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:226)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:16)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:194)
+	... 50 common frames omitted
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Connection refused: connect
+	at redis.clients.jedis.Connection.connect(Connection.java:207)
+	at redis.clients.jedis.BinaryClient.connect(BinaryClient.java:93)
+	at redis.clients.jedis.BinaryJedis.connect(BinaryJedis.java:1767)
+	at redis.clients.jedis.JedisFactory.makeObject(JedisFactory.java:106)
+	at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:888)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:432)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:361)
+	at redis.clients.util.Pool.getResource(Pool.java:49)
+	... 53 common frames omitted
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at redis.clients.jedis.Connection.connect(Connection.java:184)
+	... 60 common frames omitted
+2019-11-08 22:20:45 -Health check failed
+org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:204)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:348)
+	at org.springframework.data.redis.core.RedisConnectionUtils.doGetConnection(RedisConnectionUtils.java:129)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:92)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:79)
+	at org.springframework.boot.actuate.health.RedisHealthIndicator.doHealthCheck(RedisHealthIndicator.java:52)
+	at org.springframework.boot.actuate.health.AbstractHealthIndicator.health(AbstractHealthIndicator.java:43)
+	at org.springframework.boot.actuate.health.CompositeHealthIndicator.health(CompositeHealthIndicator.java:68)
+	at org.springframework.cloud.netflix.eureka.EurekaHealthCheckHandler.getHealthStatus(EurekaHealthCheckHandler.java:103)
+	at org.springframework.cloud.netflix.eureka.EurekaHealthCheckHandler.getStatus(EurekaHealthCheckHandler.java:99)
+	at com.netflix.discovery.DiscoveryClient.refreshInstanceInfo(DiscoveryClient.java:1379)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:100)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:88)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at redis.clients.util.Pool.getResource(Pool.java:53)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:226)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:16)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:194)
+	... 19 common frames omitted
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Connection refused: connect
+	at redis.clients.jedis.Connection.connect(Connection.java:207)
+	at redis.clients.jedis.BinaryClient.connect(BinaryClient.java:93)
+	at redis.clients.jedis.BinaryJedis.connect(BinaryJedis.java:1767)
+	at redis.clients.jedis.JedisFactory.makeObject(JedisFactory.java:106)
+	at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:888)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:432)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:361)
+	at redis.clients.util.Pool.getResource(Pool.java:49)
+	... 22 common frames omitted
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at redis.clients.jedis.Connection.connect(Connection.java:184)
+	... 29 common frames omitted
+2019-11-08 22:21:07 -The following profiles are active: dev
+2019-11-08 22:21:07 -Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@485a3466: startup date [Fri Nov 08 22:21:07 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@291caca8
+2019-11-08 22:21:08 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-11-08 22:21:08 -BeanFactory id=ec194c64-a34a-33f9-b273-10250fd5e8f6
+2019-11-08 22:21:08 -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-11-08 22:21:08 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f84ccca5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-08 22:21:08 -Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$1466cfa2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-08 22:21:09 -Tomcat initialized with port(s): 8763 (http)
+2019-11-08 22:21:09 -Starting service [Tomcat]
+2019-11-08 22:21:09 -Starting Servlet Engine: Apache Tomcat/8.5.27
+2019-11-08 22:21:09 -Initializing Spring embedded WebApplicationContext
+2019-11-08 22:21:09 -Root WebApplicationContext: initialization completed in 1194 ms
+2019-11-08 22:21:09 -Mapping servlet: 'dispatcherServlet' to [/]
+2019-11-08 22:21:09 -Mapping filter: 'metricsFilter' to: [/*]
+2019-11-08 22:21:09 -Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-11-08 22:21:09 -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-11-08 22:21:09 -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-11-08 22:21:09 -Mapping filter: 'requestContextFilter' to: [/*]
+2019-11-08 22:21:09 -Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2019-11-08 22:21:09 -Mapping filter: 'applicationContextIdFilter' to: [/*]
+2019-11-08 22:21:09 -{dataSource-1} inited
+2019-11-08 22:21:12 -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'initService' defined in file [D:\spring boot\13.运维部署01\02\daima-2\fastwave.cloud.framework\fastwave-service-auth\target\classes\fastwave\service\auth\init\InitService.class]: Invocation of init method failed; nested exception is org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2019-11-08 22:21:12 -{dataSource-1} closed
+2019-11-08 22:21:12 -Stopping service [Tomcat]
+2019-11-08 22:21:12 -
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2019-11-08 22:21:12 -Application startup failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'initService' defined in file [D:\spring boot\13.运维部署01\02\daima-2\fastwave.cloud.framework\fastwave-service-auth\target\classes\fastwave\service\auth\init\InitService.class]: Invocation of init method failed; nested exception is org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1628)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at fastwave.service.auth.Application.main(Application.java:19)
+Caused by: org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:204)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:348)
+	at org.springframework.data.redis.core.RedisConnectionUtils.doGetConnection(RedisConnectionUtils.java:129)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:92)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:79)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:194)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:169)
+	at org.springframework.data.redis.core.AbstractOperations.execute(AbstractOperations.java:91)
+	at org.springframework.data.redis.core.DefaultValueOperations.get(DefaultValueOperations.java:43)
+	at fastwave.service.auth.util.CacheUtil.get(CacheUtil.java:71)
+	at fastwave.service.auth.init.InitService.afterPropertiesSet(InitService.java:49)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1687)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1624)
+	... 16 common frames omitted
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at redis.clients.util.Pool.getResource(Pool.java:53)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:226)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:16)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:194)
+	... 28 common frames omitted
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Connection refused: connect
+	at redis.clients.jedis.Connection.connect(Connection.java:207)
+	at redis.clients.jedis.BinaryClient.connect(BinaryClient.java:93)
+	at redis.clients.jedis.BinaryJedis.connect(BinaryJedis.java:1767)
+	at redis.clients.jedis.JedisFactory.makeObject(JedisFactory.java:106)
+	at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:888)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:432)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:361)
+	at redis.clients.util.Pool.getResource(Pool.java:49)
+	... 31 common frames omitted
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at redis.clients.jedis.Connection.connect(Connection.java:184)
+	... 38 common frames omitted
+2019-11-08 22:21:16 -Health check failed
+org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:204)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:348)
+	at org.springframework.data.redis.core.RedisConnectionUtils.doGetConnection(RedisConnectionUtils.java:129)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:92)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:79)
+	at org.springframework.boot.actuate.health.RedisHealthIndicator.doHealthCheck(RedisHealthIndicator.java:52)
+	at org.springframework.boot.actuate.health.AbstractHealthIndicator.health(AbstractHealthIndicator.java:43)
+	at org.springframework.boot.actuate.health.CompositeHealthIndicator.health(CompositeHealthIndicator.java:68)
+	at org.springframework.cloud.netflix.eureka.EurekaHealthCheckHandler.getHealthStatus(EurekaHealthCheckHandler.java:103)
+	at org.springframework.cloud.netflix.eureka.EurekaHealthCheckHandler.getStatus(EurekaHealthCheckHandler.java:99)
+	at com.netflix.discovery.DiscoveryClient.refreshInstanceInfo(DiscoveryClient.java:1379)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:100)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at redis.clients.util.Pool.getResource(Pool.java:53)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:226)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:16)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:194)
+	... 18 common frames omitted
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Connection refused: connect
+	at redis.clients.jedis.Connection.connect(Connection.java:207)
+	at redis.clients.jedis.BinaryClient.connect(BinaryClient.java:93)
+	at redis.clients.jedis.BinaryJedis.connect(BinaryJedis.java:1767)
+	at redis.clients.jedis.JedisFactory.makeObject(JedisFactory.java:106)
+	at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:888)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:432)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:361)
+	at redis.clients.util.Pool.getResource(Pool.java:49)
+	... 21 common frames omitted
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at redis.clients.jedis.Connection.connect(Connection.java:184)
+	... 28 common frames omitted
+2019-11-08 22:26:02 -The following profiles are active: dev
+2019-11-08 22:26:02 -Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@29ad44e3: startup date [Fri Nov 08 22:26:02 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@7a419da4
+2019-11-08 22:26:02 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-11-08 22:26:03 -BeanFactory id=2f12963b-7aec-3abe-a59a-3382a8b9bc9a
+2019-11-08 22:26:03 -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-11-08 22:26:03 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3eaf055a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-08 22:26:03 -Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$5ac90857] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-08 22:26:03 -Tomcat initialized with port(s): 8764 (http)
+2019-11-08 22:26:03 -Starting service [Tomcat]
+2019-11-08 22:26:03 -Starting Servlet Engine: Apache Tomcat/8.5.27
+2019-11-08 22:26:03 -Initializing Spring embedded WebApplicationContext
+2019-11-08 22:26:03 -Root WebApplicationContext: initialization completed in 1311 ms
+2019-11-08 22:26:03 -Mapping servlet: 'statViewServlet' to [/druid/*]
+2019-11-08 22:26:03 -Mapping servlet: 'statViewServlet' to [/druid/*]
+2019-11-08 22:26:03 -Servlet statViewServlet was not registered (possibly already registered?)
+2019-11-08 22:26:03 -Mapping servlet: 'dispatcherServlet' to [/]
+2019-11-08 22:26:03 -Mapping filter: 'metricsFilter' to: [/*]
+2019-11-08 22:26:03 -Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-11-08 22:26:03 -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-11-08 22:26:03 -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-11-08 22:26:03 -Mapping filter: 'requestContextFilter' to: [/*]
+2019-11-08 22:26:03 -Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2019-11-08 22:26:03 -Mapping filter: 'webStatFilter' to urls: [/*]
+2019-11-08 22:26:03 -Mapping filter: 'applicationContextIdFilter' to: [/*]
+2019-11-08 22:26:04 -{dataSource-1} inited
+2019-11-08 22:26:05 -Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@29ad44e3: startup date [Fri Nov 08 22:26:02 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@7a419da4
+2019-11-08 22:26:05 -Mapped "{[/config/dict/remove],methods=[POST],produces=[application/json;charset=UTF-8]}" onto public fastwave.lib.common.web.R fastwave.service.admin.config.controller.DictController.remove(java.util.Map<java.lang.String, java.lang.Object>)
+2019-11-08 22:26:05 -Mapped "{[/config/dict/update],methods=[POST],produces=[application/json;charset=UTF-8]}" onto public fastwave.lib.common.web.R fastwave.service.admin.config.controller.DictController.update(fastwave.service.admin.config.entity.Dict)
+2019-11-08 22:26:05 -Mapped "{[/config/dict/list],methods=[POST],produces=[application/json;charset=UTF-8]}" onto public java.util.Map<java.lang.String, java.lang.Object> fastwave.service.admin.config.controller.DictController.list(java.util.Map<java.lang.String, java.lang.Object>)
+2019-11-08 22:26:05 -Mapped "{[/config/dict/save],methods=[POST],produces=[application/json;charset=UTF-8]}" onto public fastwave.lib.common.web.R fastwave.service.admin.config.controller.DictController.save(fastwave.service.admin.config.entity.Dict)
+2019-11-08 22:26:05 -Mapped "{[/config/dict/listType],methods=[POST],produces=[application/json;charset=UTF-8]}" onto public java.util.Map<java.lang.String, java.lang.Object> fastwave.service.admin.config.controller.DictController.listType()
+2019-11-08 22:26:05 -Mapped "{[/config/dict/view],methods=[POST],produces=[application/json;charset=UTF-8]}" onto public java.util.Map<java.lang.String, java.lang.Object> fastwave.service.admin.config.controller.DictController.view(java.util.Map<java.lang.String, java.lang.Object>)
+2019-11-08 22:26:05 -Mapped "{[/config/dict/ListDictItems_notCheck],methods=[POST],produces=[application/json;charset=UTF-8]}" onto public java.util.Map<java.lang.String, java.lang.Object> fastwave.service.admin.config.controller.DictController.ListDictItems(java.util.Map<java.lang.String, java.lang.Object>)
+2019-11-08 22:26:05 -Mapped "{[/config/dict/treelist],methods=[POST],produces=[application/json;charset=UTF-8]}" onto public java.util.Map<java.lang.String, java.lang.Object> fastwave.service.admin.config.controller.DictController.treelist(java.util.Map<java.lang.String, java.lang.Object>)
+2019-11-08 22:26:05 -Mapped "{[/config/dict/ListDictParents],methods=[POST],produces=[application/json;charset=UTF-8]}" onto public java.util.Map<java.lang.String, java.lang.Object> fastwave.service.admin.config.controller.DictController.ListDictParents(java.util.Map<java.lang.String, java.lang.Object>)
+2019-11-08 22:26:05 -Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-11-08 22:26:05 -Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-11-08 22:26:05 -Mapped URL path [/files/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-11-08 22:26:05 -Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-11-08 22:26:05 -Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-11-08 22:26:05 -Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-11-08 22:26:05 -Mapped "{[/info || /info.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-11-08 22:26:05 -Mapped "{[/pause || /pause.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2019-11-08 22:26:05 -Mapped "{[/resume || /resume.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2019-11-08 22:26:05 -Mapped "{[/loggers/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.get(java.lang.String)
+2019-11-08 22:26:05 -Mapped "{[/loggers/{name:.*}],methods=[POST],consumes=[application/vnd.spring-boot.actuator.v1+json || application/json],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.set(java.lang.String,java.util.Map<java.lang.String, java.lang.String>)
+2019-11-08 22:26:05 -Mapped "{[/loggers || /loggers.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-11-08 22:26:05 -Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-11-08 22:26:05 -Mapped "{[/health || /health.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,java.security.Principal)
+2019-11-08 22:26:05 -Mapped "{[/auditevents || /auditevents.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.boot.actuate.endpoint.mvc.AuditEventsMvcEndpoint.findByPrincipalAndAfterAndType(java.lang.String,java.util.Date,java.lang.String)
+2019-11-08 22:26:05 -Mapped "{[/restart || /restart.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.restart.RestartMvcEndpoint.invoke()
+2019-11-08 22:26:05 -Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-11-08 22:26:05 -Mapped "{[/archaius || /archaius.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-11-08 22:26:05 -Mapped "{[/features || /features.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-11-08 22:26:05 -Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+2019-11-08 22:26:05 -Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-11-08 22:26:05 -Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-11-08 22:26:05 -Mapped "{[/env],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.value(java.util.Map<java.lang.String, java.lang.String>)
+2019-11-08 22:26:05 -Mapped "{[/env/reset],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.reset()
+2019-11-08 22:26:05 -Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+2019-11-08 22:26:05 -Mapped "{[/env || /env.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-11-08 22:26:05 -Mapped "{[/refresh || /refresh.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2019-11-08 22:26:05 -Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-11-08 22:26:05 -Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+2019-11-08 22:26:05 -Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-11-08 22:26:05 -Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-11-08 22:26:06 -No URLs will be polled as dynamic configuration sources.
+2019-11-08 22:26:06 -To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-11-08 22:26:06 -No URLs will be polled as dynamic configuration sources.
+2019-11-08 22:26:06 -To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-11-08 22:26:06 -Registering beans for JMX exposure on startup
+2019-11-08 22:26:06 -Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-11-08 22:26:06 -Bean with name 'refreshScope' has been autodetected for JMX exposure
+2019-11-08 22:26:06 -Bean with name 'environmentManager' has been autodetected for JMX exposure
+2019-11-08 22:26:06 -Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2019-11-08 22:26:06 -Bean with name 'refreshEndpoint' has been autodetected for JMX exposure
+2019-11-08 22:26:06 -Bean with name 'restartEndpoint' has been autodetected for JMX exposure
+2019-11-08 22:26:06 -Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2019-11-08 22:26:06 -Located managed bean 'restartEndpoint': registering with JMX server as MBean [org.springframework.cloud.context.restart:name=restartEndpoint,type=RestartEndpoint]
+2019-11-08 22:26:06 -Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2019-11-08 22:26:06 -Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=29ad44e3,type=ConfigurationPropertiesRebinder]
+2019-11-08 22:26:06 -Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2019-11-08 22:26:06 -Located managed bean 'refreshEndpoint': registering with JMX server as MBean [org.springframework.cloud.endpoint:name=refreshEndpoint,type=RefreshEndpoint]
+2019-11-08 22:26:06 -Registering beans for JMX exposure on startup
+2019-11-08 22:26:06 -Starting beans in phase 0
+2019-11-08 22:26:06 -Setting initial instance status as: STARTING
+2019-11-08 22:26:06 -Using JSON encoding codec LegacyJacksonJson
+2019-11-08 22:26:06 -Using JSON decoding codec LegacyJacksonJson
+2019-11-08 22:26:06 -Using XML encoding codec XStreamXml
+2019-11-08 22:26:06 -Using XML decoding codec XStreamXml
+2019-11-08 22:26:06 -Resolving eureka endpoints via configuration
+2019-11-08 22:26:07 -Disable delta property : false
+2019-11-08 22:26:07 -Single vip registry refresh property : null
+2019-11-08 22:26:07 -Force full registry fetch : false
+2019-11-08 22:26:07 -Application is null : false
+2019-11-08 22:26:07 -Registered Applications size is zero : true
+2019-11-08 22:26:07 -Application version is -1: true
+2019-11-08 22:26:07 -Getting all instance registry info from the eureka server
+2019-11-08 22:26:07 -The response status is 200
+2019-11-08 22:26:07 -Starting heartbeat executor: renew interval is: 5
+2019-11-08 22:26:07 -InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-11-08 22:26:07 -Discovery Client initialized at timestamp 1573223167186 with initial instances count: 1
+2019-11-08 22:26:07 -Registering application fastwave-service-admin with eureka with status UP
+2019-11-08 22:26:07 -Saw local status change event StatusChangeEvent [timestamp=1573223167202, current=UP, previous=STARTING]
+2019-11-08 22:26:07 -Located managed bean 'auditEventsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=auditEventsEndpoint]
+2019-11-08 22:26:07 -Located managed bean 'featuresEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=featuresEndpoint]
+2019-11-08 22:26:07 -Located managed bean 'requestMappingEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=requestMappingEndpoint]
+2019-11-08 22:26:07 -Located managed bean 'environmentEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=environmentEndpoint]
+2019-11-08 22:26:07 -Located managed bean 'healthEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=healthEndpoint]
+2019-11-08 22:26:07 -Located managed bean 'beansEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=beansEndpoint]
+2019-11-08 22:26:07 -Located managed bean 'infoEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=infoEndpoint]
+2019-11-08 22:26:07 -Located managed bean 'loggersEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=loggersEndpoint]
+2019-11-08 22:26:07 -Located managed bean 'metricsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=metricsEndpoint]
+2019-11-08 22:26:07 -Located managed bean 'traceEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=traceEndpoint]
+2019-11-08 22:26:07 -Located managed bean 'dumpEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=dumpEndpoint]
+2019-11-08 22:26:07 -Located managed bean 'autoConfigurationReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=autoConfigurationReportEndpoint]
+2019-11-08 22:26:07 -Located managed bean 'configurationPropertiesReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=configurationPropertiesReportEndpoint]
+2019-11-08 22:26:07 -Located managed bean 'archaiusEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=archaiusEndpoint]
+2019-11-08 22:26:07 -Initializing ProtocolHandler ["http-nio-8764"]
+2019-11-08 22:26:07 -Starting ProtocolHandler ["http-nio-8764"]
+2019-11-08 22:26:07 -Using a shared selector for servlet write/read
+2019-11-08 22:26:07 -Tomcat started on port(s): 8764 (http)
+2019-11-08 22:26:07 -Updating port to 8764
+2019-11-08 22:26:07 -DiscoveryClient_FASTWAVE-SERVICE-ADMIN/fastwave-service-admin:192.168.1.104:8764: registering service...
+2019-11-08 22:26:07 -Started Application in 6.692 seconds (JVM running for 7.362)
+2019-11-08 22:26:07 -DiscoveryClient_FASTWAVE-SERVICE-ADMIN/fastwave-service-admin:192.168.1.104:8764 - registration status: 204
+2019-11-08 22:31:29 -The following profiles are active: dev
+2019-11-08 22:31:29 -Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7a527389: startup date [Fri Nov 08 22:31:29 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@399c4be1
+2019-11-08 22:31:29 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-11-08 22:31:30 -BeanFactory id=ec194c64-a34a-33f9-b273-10250fd5e8f6
+2019-11-08 22:31:30 -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-11-08 22:31:30 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ad53637a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-08 22:31:30 -Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$c96d6677] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-08 22:31:30 -Tomcat initialized with port(s): 8763 (http)
+2019-11-08 22:31:30 -Starting service [Tomcat]
+2019-11-08 22:31:30 -Starting Servlet Engine: Apache Tomcat/8.5.27
+2019-11-08 22:31:30 -Initializing Spring embedded WebApplicationContext
+2019-11-08 22:31:30 -Root WebApplicationContext: initialization completed in 1126 ms
+2019-11-08 22:31:30 -Mapping servlet: 'dispatcherServlet' to [/]
+2019-11-08 22:31:30 -Mapping filter: 'metricsFilter' to: [/*]
+2019-11-08 22:31:30 -Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-11-08 22:31:30 -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-11-08 22:31:30 -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-11-08 22:31:30 -Mapping filter: 'requestContextFilter' to: [/*]
+2019-11-08 22:31:30 -Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2019-11-08 22:31:30 -Mapping filter: 'applicationContextIdFilter' to: [/*]
+2019-11-08 22:31:31 -{dataSource-1} inited
+2019-11-08 22:31:32 -Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7a527389: startup date [Fri Nov 08 22:31:29 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@399c4be1
+2019-11-08 22:31:32 -Mapped "{[/auth/user/login],methods=[POST],produces=[application/json;charset=UTF-8]}" onto public java.util.Map<java.lang.String, java.lang.Object> fastwave.service.auth.user.controller.LoginController.login(java.util.Map<java.lang.String, java.lang.Object>)
+2019-11-08 22:31:32 -Mapped "{[/auth/user/logout],methods=[POST],produces=[application/json;charset=UTF-8]}" onto public fastwave.lib.common.web.R fastwave.service.auth.user.controller.LoginController.logout(java.util.Map<java.lang.String, java.lang.Object>)
+2019-11-08 22:31:32 -Mapped "{[/file/upload_notCheck],methods=[POST],produces=[application/json;charset=UTF-8]}" onto public java.util.Map<java.lang.String, java.lang.Object> fastwave.lib.common.io.UploadController.upload(org.springframework.web.multipart.MultipartFile)
+2019-11-08 22:31:32 -Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-11-08 22:31:32 -Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-11-08 22:31:32 -Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-11-08 22:31:32 -Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-11-08 22:31:32 -Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-11-08 22:31:32 -Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-11-08 22:31:32 -Mapped "{[/archaius || /archaius.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-11-08 22:31:32 -Mapped "{[/features || /features.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-11-08 22:31:32 -Mapped "{[/env],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.value(java.util.Map<java.lang.String, java.lang.String>)
+2019-11-08 22:31:32 -Mapped "{[/env/reset],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.reset()
+2019-11-08 22:31:32 -Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-11-08 22:31:32 -Mapped "{[/restart || /restart.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.restart.RestartMvcEndpoint.invoke()
+2019-11-08 22:31:32 -Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-11-08 22:31:32 -Mapped "{[/loggers/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.get(java.lang.String)
+2019-11-08 22:31:32 -Mapped "{[/loggers/{name:.*}],methods=[POST],consumes=[application/vnd.spring-boot.actuator.v1+json || application/json],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.set(java.lang.String,java.util.Map<java.lang.String, java.lang.String>)
+2019-11-08 22:31:32 -Mapped "{[/loggers || /loggers.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-11-08 22:31:32 -Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-11-08 22:31:32 -Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-11-08 22:31:32 -Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+2019-11-08 22:31:32 -Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-11-08 22:31:32 -Mapped "{[/resume || /resume.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2019-11-08 22:31:32 -Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-11-08 22:31:32 -Mapped "{[/refresh || /refresh.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2019-11-08 22:31:32 -Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+2019-11-08 22:31:32 -Mapped "{[/health || /health.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,java.security.Principal)
+2019-11-08 22:31:32 -Mapped "{[/pause || /pause.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2019-11-08 22:31:32 -Mapped "{[/info || /info.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-11-08 22:31:32 -Mapped "{[/auditevents || /auditevents.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.boot.actuate.endpoint.mvc.AuditEventsMvcEndpoint.findByPrincipalAndAfterAndType(java.lang.String,java.util.Date,java.lang.String)
+2019-11-08 22:31:32 -Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+2019-11-08 22:31:32 -Mapped "{[/env || /env.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-11-08 22:31:33 -No URLs will be polled as dynamic configuration sources.
+2019-11-08 22:31:33 -To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-11-08 22:31:33 -No URLs will be polled as dynamic configuration sources.
+2019-11-08 22:31:33 -To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-11-08 22:31:33 -Registering beans for JMX exposure on startup
+2019-11-08 22:31:33 -Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-11-08 22:31:33 -Bean with name 'refreshScope' has been autodetected for JMX exposure
+2019-11-08 22:31:33 -Bean with name 'environmentManager' has been autodetected for JMX exposure
+2019-11-08 22:31:33 -Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2019-11-08 22:31:33 -Bean with name 'refreshEndpoint' has been autodetected for JMX exposure
+2019-11-08 22:31:33 -Bean with name 'restartEndpoint' has been autodetected for JMX exposure
+2019-11-08 22:31:33 -Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2019-11-08 22:31:33 -Located managed bean 'restartEndpoint': registering with JMX server as MBean [org.springframework.cloud.context.restart:name=restartEndpoint,type=RestartEndpoint]
+2019-11-08 22:31:33 -Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2019-11-08 22:31:33 -Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=7a527389,type=ConfigurationPropertiesRebinder]
+2019-11-08 22:31:33 -Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2019-11-08 22:31:33 -Located managed bean 'refreshEndpoint': registering with JMX server as MBean [org.springframework.cloud.endpoint:name=refreshEndpoint,type=RefreshEndpoint]
+2019-11-08 22:31:33 -Registering beans for JMX exposure on startup
+2019-11-08 22:31:33 -Starting beans in phase 0
+2019-11-08 22:31:33 -Setting initial instance status as: STARTING
+2019-11-08 22:31:33 -Using JSON encoding codec LegacyJacksonJson
+2019-11-08 22:31:33 -Using JSON decoding codec LegacyJacksonJson
+2019-11-08 22:31:33 -Using XML encoding codec XStreamXml
+2019-11-08 22:31:33 -Using XML decoding codec XStreamXml
+2019-11-08 22:31:33 -Resolving eureka endpoints via configuration
+2019-11-08 22:31:33 -Disable delta property : false
+2019-11-08 22:31:33 -Single vip registry refresh property : null
+2019-11-08 22:31:33 -Force full registry fetch : false
+2019-11-08 22:31:33 -Application is null : false
+2019-11-08 22:31:33 -Registered Applications size is zero : true
+2019-11-08 22:31:33 -Application version is -1: true
+2019-11-08 22:31:33 -Getting all instance registry info from the eureka server
+2019-11-08 22:31:34 -The response status is 200
+2019-11-08 22:31:34 -Starting heartbeat executor: renew interval is: 5
+2019-11-08 22:31:34 -InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-11-08 22:31:34 -Discovery Client initialized at timestamp 1573223494089 with initial instances count: 1
+2019-11-08 22:31:34 -Registering application fastwave-service-auth with eureka with status UP
+2019-11-08 22:31:34 -Saw local status change event StatusChangeEvent [timestamp=1573223494105, current=UP, previous=STARTING]
+2019-11-08 22:31:34 -Located managed bean 'auditEventsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=auditEventsEndpoint]
+2019-11-08 22:31:34 -Located managed bean 'featuresEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=featuresEndpoint]
+2019-11-08 22:31:34 -DiscoveryClient_FASTWAVE-SERVICE-AUTH/fastwave-service-auth:192.168.1.104:8763: registering service...
+2019-11-08 22:31:34 -Located managed bean 'requestMappingEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=requestMappingEndpoint]
+2019-11-08 22:31:34 -Located managed bean 'environmentEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=environmentEndpoint]
+2019-11-08 22:31:34 -Located managed bean 'healthEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=healthEndpoint]
+2019-11-08 22:31:34 -Located managed bean 'beansEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=beansEndpoint]
+2019-11-08 22:31:34 -Located managed bean 'infoEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=infoEndpoint]
+2019-11-08 22:31:34 -Located managed bean 'loggersEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=loggersEndpoint]
+2019-11-08 22:31:34 -Located managed bean 'metricsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=metricsEndpoint]
+2019-11-08 22:31:34 -Located managed bean 'traceEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=traceEndpoint]
+2019-11-08 22:31:34 -DiscoveryClient_FASTWAVE-SERVICE-AUTH/fastwave-service-auth:192.168.1.104:8763 - registration status: 204
+2019-11-08 22:31:34 -Located managed bean 'dumpEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=dumpEndpoint]
+2019-11-08 22:31:34 -Located managed bean 'autoConfigurationReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=autoConfigurationReportEndpoint]
+2019-11-08 22:31:34 -Located managed bean 'configurationPropertiesReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=configurationPropertiesReportEndpoint]
+2019-11-08 22:31:34 -Located managed bean 'archaiusEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=archaiusEndpoint]
+2019-11-08 22:31:34 -Initializing ProtocolHandler ["http-nio-8763"]
+2019-11-08 22:31:34 -Starting ProtocolHandler ["http-nio-8763"]
+2019-11-08 22:31:34 -Using a shared selector for servlet write/read
+2019-11-08 22:31:34 -Tomcat started on port(s): 8763 (http)
+2019-11-08 22:31:34 -Updating port to 8763
+2019-11-08 22:31:34 -Started Application in 6.466 seconds (JVM running for 7.11)
+2019-11-08 22:31:38 -The following profiles are active: dev
+2019-11-08 22:31:38 -Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@408b35bf: startup date [Fri Nov 08 22:31:38 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@2053d869
+2019-11-08 22:31:38 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-11-08 22:31:39 -BeanFactory id=2f12963b-7aec-3abe-a59a-3382a8b9bc9a
+2019-11-08 22:31:39 -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-11-08 22:31:39 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f11bd9df] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-08 22:31:39 -Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$d35dcdc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-08 22:31:39 -Tomcat initialized with port(s): 8764 (http)
+2019-11-08 22:31:39 -Starting service [Tomcat]
+2019-11-08 22:31:39 -Starting Servlet Engine: Apache Tomcat/8.5.27
+2019-11-08 22:31:39 -Initializing Spring embedded WebApplicationContext
+2019-11-08 22:31:39 -Root WebApplicationContext: initialization completed in 1334 ms
+2019-11-08 22:31:39 -Mapping servlet: 'statViewServlet' to [/druid/*]
+2019-11-08 22:31:39 -Mapping servlet: 'statViewServlet' to [/druid/*]
+2019-11-08 22:31:39 -Servlet statViewServlet was not registered (possibly already registered?)
+2019-11-08 22:31:39 -Mapping servlet: 'dispatcherServlet' to [/]
+2019-11-08 22:31:39 -Mapping filter: 'metricsFilter' to: [/*]
+2019-11-08 22:31:39 -Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-11-08 22:31:39 -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-11-08 22:31:39 -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-11-08 22:31:39 -Mapping filter: 'requestContextFilter' to: [/*]
+2019-11-08 22:31:39 -Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2019-11-08 22:31:39 -Mapping filter: 'webStatFilter' to urls: [/*]
+2019-11-08 22:31:39 -Mapping filter: 'applicationContextIdFilter' to: [/*]
+2019-11-08 22:31:40 -{dataSource-1} inited
+2019-11-08 22:31:41 -Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@408b35bf: startup date [Fri Nov 08 22:31:38 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@2053d869
+2019-11-08 22:31:41 -Mapped "{[/config/dict/remove],methods=[POST],produces=[application/json;charset=UTF-8]}" onto public fastwave.lib.common.web.R fastwave.service.admin.config.controller.DictController.remove(java.util.Map<java.lang.String, java.lang.Object>)
+2019-11-08 22:31:41 -Mapped "{[/config/dict/update],methods=[POST],produces=[application/json;charset=UTF-8]}" onto public fastwave.lib.common.web.R fastwave.service.admin.config.controller.DictController.update(fastwave.service.admin.config.entity.Dict)
+2019-11-08 22:31:41 -Mapped "{[/config/dict/list],methods=[POST],produces=[application/json;charset=UTF-8]}" onto public java.util.Map<java.lang.String, java.lang.Object> fastwave.service.admin.config.controller.DictController.list(java.util.Map<java.lang.String, java.lang.Object>)
+2019-11-08 22:31:41 -Mapped "{[/config/dict/save],methods=[POST],produces=[application/json;charset=UTF-8]}" onto public fastwave.lib.common.web.R fastwave.service.admin.config.controller.DictController.save(fastwave.service.admin.config.entity.Dict)
+2019-11-08 22:31:41 -Mapped "{[/config/dict/listType],methods=[POST],produces=[application/json;charset=UTF-8]}" onto public java.util.Map<java.lang.String, java.lang.Object> fastwave.service.admin.config.controller.DictController.listType()
+2019-11-08 22:31:41 -Mapped "{[/config/dict/view],methods=[POST],produces=[application/json;charset=UTF-8]}" onto public java.util.Map<java.lang.String, java.lang.Object> fastwave.service.admin.config.controller.DictController.view(java.util.Map<java.lang.String, java.lang.Object>)
+2019-11-08 22:31:41 -Mapped "{[/config/dict/ListDictParents],methods=[POST],produces=[application/json;charset=UTF-8]}" onto public java.util.Map<java.lang.String, java.lang.Object> fastwave.service.admin.config.controller.DictController.ListDictParents(java.util.Map<java.lang.String, java.lang.Object>)
+2019-11-08 22:31:41 -Mapped "{[/config/dict/ListDictItems_notCheck],methods=[POST],produces=[application/json;charset=UTF-8]}" onto public java.util.Map<java.lang.String, java.lang.Object> fastwave.service.admin.config.controller.DictController.ListDictItems(java.util.Map<java.lang.String, java.lang.Object>)
+2019-11-08 22:31:41 -Mapped "{[/config/dict/treelist],methods=[POST],produces=[application/json;charset=UTF-8]}" onto public java.util.Map<java.lang.String, java.lang.Object> fastwave.service.admin.config.controller.DictController.treelist(java.util.Map<java.lang.String, java.lang.Object>)
+2019-11-08 22:31:41 -Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-11-08 22:31:41 -Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-11-08 22:31:41 -Mapped URL path [/files/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-11-08 22:31:41 -Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-11-08 22:31:41 -Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-11-08 22:31:41 -Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-11-08 22:31:41 -Mapped "{[/pause || /pause.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2019-11-08 22:31:41 -Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+2019-11-08 22:31:41 -Mapped "{[/env || /env.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-11-08 22:31:41 -Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-11-08 22:31:41 -Mapped "{[/loggers/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.get(java.lang.String)
+2019-11-08 22:31:41 -Mapped "{[/loggers/{name:.*}],methods=[POST],consumes=[application/vnd.spring-boot.actuator.v1+json || application/json],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.set(java.lang.String,java.util.Map<java.lang.String, java.lang.String>)
+2019-11-08 22:31:41 -Mapped "{[/loggers || /loggers.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-11-08 22:31:41 -Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-11-08 22:31:41 -Mapped "{[/restart || /restart.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.restart.RestartMvcEndpoint.invoke()
+2019-11-08 22:31:41 -Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+2019-11-08 22:31:41 -Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-11-08 22:31:41 -Mapped "{[/refresh || /refresh.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2019-11-08 22:31:41 -Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+2019-11-08 22:31:41 -Mapped "{[/resume || /resume.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2019-11-08 22:31:41 -Mapped "{[/archaius || /archaius.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-11-08 22:31:41 -Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-11-08 22:31:41 -Mapped "{[/info || /info.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-11-08 22:31:41 -Mapped "{[/auditevents || /auditevents.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.boot.actuate.endpoint.mvc.AuditEventsMvcEndpoint.findByPrincipalAndAfterAndType(java.lang.String,java.util.Date,java.lang.String)
+2019-11-08 22:31:41 -Mapped "{[/features || /features.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-11-08 22:31:41 -Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-11-08 22:31:41 -Mapped "{[/env],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.value(java.util.Map<java.lang.String, java.lang.String>)
+2019-11-08 22:31:41 -Mapped "{[/env/reset],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.reset()
+2019-11-08 22:31:41 -Mapped "{[/health || /health.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,java.security.Principal)
+2019-11-08 22:31:41 -Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-11-08 22:31:41 -Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-11-08 22:31:42 -No URLs will be polled as dynamic configuration sources.
+2019-11-08 22:31:42 -To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-11-08 22:31:42 -No URLs will be polled as dynamic configuration sources.
+2019-11-08 22:31:42 -To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-11-08 22:31:42 -Registering beans for JMX exposure on startup
+2019-11-08 22:31:42 -Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-11-08 22:31:42 -Bean with name 'refreshScope' has been autodetected for JMX exposure
+2019-11-08 22:31:42 -Bean with name 'environmentManager' has been autodetected for JMX exposure
+2019-11-08 22:31:42 -Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2019-11-08 22:31:42 -Bean with name 'refreshEndpoint' has been autodetected for JMX exposure
+2019-11-08 22:31:42 -Bean with name 'restartEndpoint' has been autodetected for JMX exposure
+2019-11-08 22:31:42 -Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2019-11-08 22:31:42 -Located managed bean 'restartEndpoint': registering with JMX server as MBean [org.springframework.cloud.context.restart:name=restartEndpoint,type=RestartEndpoint]
+2019-11-08 22:31:42 -Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2019-11-08 22:31:42 -Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=408b35bf,type=ConfigurationPropertiesRebinder]
+2019-11-08 22:31:42 -Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2019-11-08 22:31:42 -Located managed bean 'refreshEndpoint': registering with JMX server as MBean [org.springframework.cloud.endpoint:name=refreshEndpoint,type=RefreshEndpoint]
+2019-11-08 22:31:42 -Registering beans for JMX exposure on startup
+2019-11-08 22:31:42 -Starting beans in phase 0
+2019-11-08 22:31:42 -Setting initial instance status as: STARTING
+2019-11-08 22:31:42 -Using JSON encoding codec LegacyJacksonJson
+2019-11-08 22:31:42 -Using JSON decoding codec LegacyJacksonJson
+2019-11-08 22:31:42 -Using XML encoding codec XStreamXml
+2019-11-08 22:31:42 -Using XML decoding codec XStreamXml
+2019-11-08 22:31:42 -Resolving eureka endpoints via configuration
+2019-11-08 22:31:42 -Disable delta property : false
+2019-11-08 22:31:42 -Single vip registry refresh property : null
+2019-11-08 22:31:42 -Force full registry fetch : false
+2019-11-08 22:31:42 -Application is null : false
+2019-11-08 22:31:42 -Registered Applications size is zero : true
+2019-11-08 22:31:42 -Application version is -1: true
+2019-11-08 22:31:42 -Getting all instance registry info from the eureka server
+2019-11-08 22:31:43 -The response status is 200
+2019-11-08 22:31:43 -Starting heartbeat executor: renew interval is: 5
+2019-11-08 22:31:43 -InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-11-08 22:31:43 -Discovery Client initialized at timestamp 1573223503070 with initial instances count: 1
+2019-11-08 22:31:43 -Registering application fastwave-service-admin with eureka with status UP
+2019-11-08 22:31:43 -Saw local status change event StatusChangeEvent [timestamp=1573223503085, current=UP, previous=STARTING]
+2019-11-08 22:31:43 -Located managed bean 'auditEventsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=auditEventsEndpoint]
+2019-11-08 22:31:43 -Located managed bean 'featuresEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=featuresEndpoint]
+2019-11-08 22:31:43 -Located managed bean 'requestMappingEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=requestMappingEndpoint]
+2019-11-08 22:31:43 -Located managed bean 'environmentEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=environmentEndpoint]
+2019-11-08 22:31:43 -Located managed bean 'healthEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=healthEndpoint]
+2019-11-08 22:31:43 -Located managed bean 'beansEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=beansEndpoint]
+2019-11-08 22:31:43 -Located managed bean 'infoEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=infoEndpoint]
+2019-11-08 22:31:43 -Located managed bean 'loggersEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=loggersEndpoint]
+2019-11-08 22:31:43 -Located managed bean 'metricsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=metricsEndpoint]
+2019-11-08 22:31:43 -Located managed bean 'traceEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=traceEndpoint]
+2019-11-08 22:31:43 -Located managed bean 'dumpEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=dumpEndpoint]
+2019-11-08 22:31:43 -Located managed bean 'autoConfigurationReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=autoConfigurationReportEndpoint]
+2019-11-08 22:31:43 -Located managed bean 'configurationPropertiesReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=configurationPropertiesReportEndpoint]
+2019-11-08 22:31:43 -Located managed bean 'archaiusEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=archaiusEndpoint]
+2019-11-08 22:31:43 -Initializing ProtocolHandler ["http-nio-8764"]
+2019-11-08 22:31:43 -Starting ProtocolHandler ["http-nio-8764"]
+2019-11-08 22:31:43 -Using a shared selector for servlet write/read
+2019-11-08 22:31:43 -DiscoveryClient_FASTWAVE-SERVICE-ADMIN/fastwave-service-admin:192.168.1.104:8764: registering service...
+2019-11-08 22:31:43 -Tomcat started on port(s): 8764 (http)
+2019-11-08 22:31:43 -Updating port to 8764
+2019-11-08 22:31:43 -Started Application in 6.57 seconds (JVM running for 7.214)
+2019-11-08 22:31:43 -DiscoveryClient_FASTWAVE-SERVICE-ADMIN/fastwave-service-admin:192.168.1.104:8764 - registration status: 204
